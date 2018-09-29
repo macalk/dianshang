@@ -1,0 +1,18 @@
+<?php
+namespace app\index\controller;
+
+use think\Controller;
+
+class User extends Controller
+{
+    public function login()
+    {
+        return view();
+    }
+    public function register()
+    {
+        return view();
+    }
+
+    
+}
